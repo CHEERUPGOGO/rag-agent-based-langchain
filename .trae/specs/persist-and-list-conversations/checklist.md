@@ -1,0 +1,5 @@
+- [x] Backend: Conversation titles are automatically updated based on the first user message.
+- [x] Frontend: Sidebar displays the list of conversations for the current user.
+- [x] Frontend: Clicking a conversation in the sidebar correctly loads the historical messages.
+- [x] Frontend: Service restart does not lose conversation history (verified by checking list after restart).
+- [x] Frontend: "New Chat" button creates a fresh conversation context.

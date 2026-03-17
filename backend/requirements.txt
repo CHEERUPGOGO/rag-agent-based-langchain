@@ -1,0 +1,53 @@
+# LangChain 1.0 核心依赖
+langchain>=1.0.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-openai>=0.2.0
+langgraph>=1.05,<1.10
+aiosqlite>=0.20.0
+
+# DeepSeek API (兼容OpenAI接口)
+openai>=1.40.0
+
+# Tavily联网搜索
+tavily-python>=0.4.0
+langchain-tavily>=0.1.0
+
+# 向量数据库
+chromadb>=0.5.0
+langchain-chroma>=0.1.0
+
+# Ollama支持
+langchain-ollama>=0.2.0
+
+# Embedding模型
+sentence-transformers>=3.0.0
+langchain-huggingface>=0.1.0  # 新增：新版本HuggingFace支持
+
+# RAGAS 评估
+ragas>=0.2.0
+
+# BM25 检索算法
+rank-bm25>=0.2.0
+
+# FastAPI后端
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+
+# 文档处理
+pypdf>=4.0.0
+python-docx>=1.1.0
+docx2txt>=0.8
+unstructured>=0.15.0
+
+# 工具库
+python-dotenv>=1.0.0
+pydantic>=2.8.0
+pydantic-settings>=2.4.0
+httpx>=0.27.0
+aiofiles>=24.1.0
+
+# 数据处理
+numpy>=1.26.0
+pandas>=2.2.0

@@ -1,0 +1,17 @@
+# 敏感信息
+.env
+.env.local
+
+# 本地数据库
+*.db
+*.sqlite
+*.sqlite3
+
+# 依赖文件夹
+node_modules/
+__pycache__/
+venv/
+
+# 其他
+*.log
+.DS_Store
